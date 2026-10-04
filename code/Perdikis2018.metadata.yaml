@@ -1,0 +1,130 @@
+_dataset:
+  class: Perdikis2018
+  code: Perdikis2018
+  doi: 10.5281/zenodo.841764
+  interval:
+  - 1
+  - 5
+  n_subjects: 2
+  paradigm: imagery
+acquisition:
+  channel_types:
+    eeg: 16
+  hardware: g.USBamp (g.tec medical engineering, Austria)
+  line_freq: 50.0
+  montage: standard_1005
+  sampling_rate: 512.0
+  sensor_type: Ag/AgCl
+  sensors:
+  - Fz
+  - FC3
+  - FC1
+  - FCz
+  - FC2
+  - FC4
+  - C3
+  - C1
+  - Cz
+  - C2
+  - C4
+  - CP3
+  - CP1
+  - CPz
+  - CP2
+  - CP4
+bci_application:
+  applications:
+  - avatar control
+  - BCI game (BrainRunners)
+  - Cybathlon
+  environment: lab and competition arena
+  online_feedback: true
+cross_validation:
+  evaluation_type:
+  - within_subject
+data_structure:
+  trials_context: Offline calibration runs of the both-hands / both-feet / rest family, each with about 15 cued trials per
+    class present; runs span several recording days per pilot and are pooled as runs of a single session.
+documentation:
+  associated_paper_doi: 10.1371/journal.pbio.2003787
+  country: CH
+  data_url: https://doi.org/10.5281/zenodo.841764
+  description: EEG recordings and application logs from the two tetraplegic pilots of team Brain Tweakers (CNBI, EPFL) during
+    longitudinal motor-imagery BCI training and the Cybathlon 2016 BCI race; this loader exposes the cue-based offline calibration
+    runs (both-hands / both-feet / rest).
+  doi: 10.5281/zenodo.841764
+  institution: Defitech Chair in Brain-Machine Interface (CNBI), Center for Neuroprosthetics, Ecole Polytechnique Federale
+    de Lausanne (EPFL)
+  investigators:
+  - Serafeim Perdikis
+  - Luca Tonin
+  - Sareh Saeedi
+  - Christoph Schneider
+  - Jose del R. Millan
+  keywords:
+  - motor imagery
+  - brain-computer interface
+  - EEG
+  - Cybathlon
+  - BCI race
+  - spinal cord injury
+  - tetraplegia
+  license: CC-BY-4.0
+  publication_year: 2018
+  repository: Zenodo
+  senior_author: Jose del R. Millan
+experiment:
+  class_labels:
+  - both_feet
+  - both_hands
+  - rest
+  events:
+    both_feet: 771
+    both_hands: 773
+    rest: 783
+  feedback_type: visual
+  instructions: Perform the cued kinesthetic motor imagery (both-hands, both-feet, or rest) to control the BrainRunners avatar.
+  mode: offline
+  n_classes: 3
+  paradigm: imagery
+  stimulus_modalities:
+  - visual
+  stimulus_type: visual
+  study_design: Longitudinal motor-imagery BCI training for the Cybathlon 2016 BCI race; two tetraplegic pilots delivered
+    sustained kinesthetic motor-imagery commands (both hands, both feet, rest) to drive an avatar in the BrainRunners game.
+  synchronicity: cue-based
+  trial_duration: 4.0
+file_format: GDF
+paradigm_specific:
+  cue_duration_s: 1.0
+  detected_paradigm: motor_imagery
+  imagery_duration_s: 4.0
+  imagery_tasks:
+  - both_hands
+  - both_feet
+  - rest
+participants:
+  bci_experience: experienced
+  clinical_population: tetraplegia (chronic spinal cord injury)
+  health_status: spinal cord injury
+  n_subjects: 2
+  species: homo sapiens
+preprocessing:
+  data_state: raw
+runs_per_session: 1
+sessions_per_subject: 1
+signal_processing:
+  frequency_bands:
+    beta:
+    - 12.0
+    - 30.0
+    mu:
+    - 8.0
+    - 12.0
+tags:
+  modality:
+  - motor
+  pathology:
+  - spinal cord injury
+  type:
+  - Motor Imagery

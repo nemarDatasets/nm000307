@@ -1,0 +1,43 @@
+{
+    "Name": "Perdikis2018",
+    "BIDSVersion": "1.9.0",
+    "HEDVersion": "8.4.0",
+    "DatasetType": "derivative",
+    "License": "CC-BY-4.0",
+    "Authors": [
+        "Serafeim Perdikis",
+        "Luca Tonin",
+        "Sareh Saeedi",
+        "Christoph Schneider",
+        "Jose del R. Millan"
+    ],
+    "ReferencesAndLinks": [
+        "https://doi.org/10.5281/zenodo.841764",
+        "10.1371/journal.pbio.2003787"
+    ],
+    "Keywords": [
+        "motor imagery",
+        "brain-computer interface",
+        "EEG",
+        "Cybathlon",
+        "BCI race",
+        "spinal cord injury",
+        "tetraplegia"
+    ],
+    "DatasetDOI": "doi:10.5281/zenodo.841764",
+    "GeneratedBy": [
+        {
+            "CodeURL": "https://github.com/NeuroTechX/moabb",
+            "Name": "moabb",
+            "Description": "Mother of All BCI Benchmarks",
+            "Version": "1.8.0dev0"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "DOI": "10.5281/zenodo.841764",
+            "URL": "https://doi.org/10.5281/zenodo.841764"
+        }
+    ],
+    "PublicationYear": 2018
+}
