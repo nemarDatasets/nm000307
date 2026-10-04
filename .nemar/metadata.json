@@ -1,0 +1,85 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Serafeim Perdikis": {
+      "orcid": "0000-0003-2033-2486"
+    },
+    "Luca Tonin": {},
+    "Sareh Saeedi": {},
+    "Christoph Schneider": {},
+    "Jose del R. Millan": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.841764",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1371/journal.pbio.2003787",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000307",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000307",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Perdikis2018",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "242 MB (33 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yaml"
+  ],
+  "description": "EEG recordings from two tetraplegic pilots of team Brain Tweakers (CNBI, EPFL) during longitudinal motor-imagery BCI training for the Cybathlon 2016 BCI race. This derivative exposes the cue-based offline calibration runs with three classes (both hands, both feet, rest) recorded with 16 EEG channels at 512 Hz. The data support research on BCI control by people with chronic spinal cord injury.",
+  "methods_description": "16-channel EEG was recorded at 512 Hz with a g.USBamp amplifier (Ag/AgCl electrodes, standard_1005 montage). Participants performed cued kinesthetic motor imagery of both hands, both feet, or rest, with a 1 s cue and 4 s imagery period. Runs from several recording days per pilot are pooled as one session.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "Cybathlon"
+    },
+    {
+      "term": "spinal cord injury"
+    },
+    {
+      "term": "tetraplegia"
+    }
+  ],
+  "source_hash": "305ca5be8bc62243459a4a7ad141a09bdf821fbc3565a4bbf2e96bdcb19f3312"
+}
