@@ -1,5 +1,5 @@
 {
-    "Name": "Perdikis2018",
+    "Name": "Perdikis2018: CNBI EPFL Cybathlon BCI-race motor-imagery dataset",
     "BIDSVersion": "1.9.0",
     "HEDVersion": "8.4.0",
     "DatasetType": "derivative",
@@ -39,5 +39,8 @@
             "URL": "https://doi.org/10.5281/zenodo.841764"
         }
     ],
-    "PublicationYear": 2018
+    "PublicationYear": 2018,
+    "EthicsApprovals": [
+        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+    ]
 }
