@@ -141,3 +141,13 @@ new human-subject data were collected during this BIDS re-release; this
 NEMAR record only reformats the published source data into BIDS via MOABB.
 Please consult the primary publication for the exact IRB/ethics committee
 reference.
+
+## Ethics
+
+Approved by the Swiss Cantonal Committee of Vaud for ethics in human research (CER-VD), protocol number PB_2017–00295 (20/15 CCVEM). Informed consents were signed in accordance with the Declaration of Helsinki (Perdikis et al. 2018, PLoS Biology, DOI 10.1371/journal.pbio.2003787).
+
+Verbatim from the source:
+
+> This study has been approved by the Cantonal Committee of Vaud (VD, Switzerland) for ethics in human research (CER-VD) under protocol number PB_2017–00295 (20/15 CCVEM).
+
+Source: cached paper .paper-audit/Perdikis2018/paper-10_1371_journal_pbio_2003787.txt (Perdikis et al. 2018, PLoS Biol., DOI 10.1371/journal.pbio.2003787).

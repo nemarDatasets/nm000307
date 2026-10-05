@@ -41,6 +41,6 @@
     ],
     "PublicationYear": 2018,
     "EthicsApprovals": [
-        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+        "Approved by the Swiss Cantonal Committee of Vaud for ethics in human research (CER-VD), protocol number PB_2017\u201300295 (20/15 CCVEM). Informed consents were signed in accordance with the Declaration of Helsinki (Perdikis et al. 2018, PLoS Biology, DOI 10.1371/journal.pbio.2003787)."
     ]
 }
