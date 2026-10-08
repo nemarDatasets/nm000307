@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Perdikis2018: CNBI EPFL Cybathlon BCI-race motor-imagery dataset",
-  "description": "EEG recordings from two tetraplegic pilots of team Brain Tweakers (CNBI, EPFL) collected during longitudinal motor-imagery BCI training for the Cybathlon 2016 BCI race. The dataset contains cue-based offline calibration runs of kinesthetic motor imagery (both hands, both feet, rest) recorded with 16 EEG channels at 512 Hz. The data were used to drive an avatar in the BrainRunners game and are re-released in BIDS format via MOABB.",
-  "methods_description": "16-channel EEG was recorded at 512 Hz with a g.USBamp amplifier (Ag/AgCl electrodes) over sensorimotor areas. Cue-based trials of both-hands, both-feet and rest motor imagery (about 15 trials per class per run, 4 s imagery) were pooled across several recording days per pilot and treated as a single session. Visual feedback was provided.",
+  "description": "EEG recordings from two tetraplegic pilots of team Brain Tweakers (CNBI, EPFL) during longitudinal motor-imagery BCI training for the Cybathlon 2016 BCI race. The dataset contains 16-channel EEG sampled at 512 Hz from cue-based offline calibration runs with three classes (both hands, both feet, rest). It is a BIDS re-release of the published Zenodo data, prepared via MOABB, and supports research on BCI learning in people with spinal cord injury.",
+  "methods_description": "16-channel EEG (Ag/AgCl electrodes, g.USBamp, 512 Hz, 50 Hz line frequency) recorded over sensorimotor areas. Pilots performed cued kinesthetic motor imagery of both hands, both feet, or rest (about 4 s imagery after a 1 s cue) to control an avatar in the BrainRunners game, with visual feedback. Runs spanned several recording days per pilot and were pooled as a single session.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -23,16 +23,22 @@
       "term": "motor imagery"
     },
     {
-      "term": "brain-computer interface"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "Cybathlon"
     },
     {
-      "term": "spinal cord injury"
+      "term": "Spinal Cord Injuries",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013119"
     },
     {
-      "term": "tetraplegia"
+      "term": "Quadriplegia",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D011782"
     }
   ],
   "related_identifiers": [
@@ -73,14 +79,24 @@
     "eeg"
   ],
   "sizes": [
-    "242 MB (33 files)"
+    "5.02 GB (1173 files)"
   ],
   "formats": [
+    ".TXT",
+    ".csv",
+    ".csv#",
     ".edf",
+    ".gdf",
     ".json",
+    ".log",
+    ".mat",
+    ".md",
     ".tsv",
+    ".txt",
+    ".xml",
     ".yaml",
-    ".yml"
+    ".yml",
+    ".zip"
   ],
-  "source_hash": "fcee35b95ca481f3c86e8e13b51a6a877a42b7bb4751c33891cb91c19b8bc6ed"
+  "source_hash": "371aed8ae16ca4f990546776caacdfce3ca1a8359a00bcc7f71059ec3e19748b"
 }
