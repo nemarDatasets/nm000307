@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Perdikis2018: CNBI EPFL Cybathlon BCI-race motor-imagery dataset",
-  "description": "EEG recordings from two tetraplegic pilots of team Brain Tweakers (CNBI, EPFL) during longitudinal motor-imagery BCI training for the Cybathlon 2016 BCI race. The dataset contains 16-channel EEG sampled at 512 Hz from cue-based offline calibration runs with three classes (both hands, both feet, rest). It is a BIDS re-release of the published Zenodo data, prepared via MOABB, and supports research on BCI learning in people with spinal cord injury.",
-  "methods_description": "16-channel EEG (Ag/AgCl electrodes, g.USBamp, 512 Hz, 50 Hz line frequency) recorded over sensorimotor areas. Pilots performed cued kinesthetic motor imagery of both hands, both feet, or rest (about 4 s imagery after a 1 s cue) to control an avatar in the BrainRunners game, with visual feedback. Runs spanned several recording days per pilot and were pooled as a single session.",
+  "description": "EEG recordings from two tetraplegic pilots of team Brain Tweakers (CNBI, EPFL) during longitudinal motor-imagery BCI training for the Cybathlon 2016 BCI race. The dataset contains 16-channel EEG from cue-based offline calibration runs with three classes (both hands, both feet, rest), recorded at 512 Hz. It was re-released in BIDS format from the original Zenodo deposit via MOABB.",
+  "methods_description": "16-channel EEG (Fz, FC3-FC4, C3-C4, CP3-CP4, etc.) was recorded with a g.USBamp amplifier (g.tec) using Ag/AgCl sensors at 512 Hz. Pilots performed cued kinesthetic motor imagery of both hands, both feet, or rest (4 s imagery after a 1 s cue) to control an avatar in the BrainRunners game. Runs were pooled across several recording days per pilot as a single session.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -36,9 +36,7 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D013119"
     },
     {
-      "term": "Quadriplegia",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D011782"
+      "term": "tetraplegia"
     }
   ],
   "related_identifiers": [
